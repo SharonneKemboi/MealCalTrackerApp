@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "https://fonts.googleapis.com/css?family=Gabriela";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(207, 169, 232);
+}
+
+p{
+  font-family: 'Gabriela', sans-serif;  
+  font-size: 2rem;
+  font-weight: 800;
+}
