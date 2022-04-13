@@ -1,9 +1,38 @@
 <div class="container-fluid text-center">
-  <p>My <span>Meal</span>  Tracker <span>App</span> </p>
-  
+		<header class="jumbotron">
+			<h1><img src="../assets/value-stack-icon1-2.png" alt="Logo"><span>Bon</span> Appetite <span>Meal</span>Tracker</h1>
+		
+		</header>
+		<main>
+			<section>
+			<div class="about" *ngIf="masterMealList.length===0">
+				<p>My <span>Meal</span>  Tracker <span>App</span> </p>
+				
+					<p>Bon Appetite Meal Tracker<span id="spin"></span>!</p>
+					<div class="container">
+						<div class="word w1">Everything</div>
+						<div class="word w2">in</div>
+						<div class="word w3"> moderation</div>
+						<div class="word w4">like</div>
+						<div class="word w5"> calories</div>             
+					  </div>
+					 <br/>
+				
+				
+			</div>	
+		
+				<!-- <new-meal (sendNewMeal)="addMeal($event)"></new-meal> -->
+			<!--Display the list of meals entered by the user, connect it to the list in appcomponent --> 
+				<!-- <meal-list [childMealList]="masterMealList"></meal-list> -->
+			</section>
+		</main>
+		<footer>
+			<p> &copy; 2022 Bon Appettite </p>
+		</footer>
+		</div>
+	`
 
 
-</div>
 
 
 
