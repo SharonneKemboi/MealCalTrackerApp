@@ -7,11 +7,13 @@ h1{
   font-family: 'Gabriela', sans-serif;  
   font-size: 3rem;
   font-weight: 900;
+  color: black;
 }
 p{
   font-family: 'Gabriela', sans-serif;  
   font-size: 2rem;
   font-weight: 700;
+  color: black;
 }
 span {
   color: aqua;
@@ -32,7 +34,7 @@ header{
     margin: 20px auto;
     background: #e242b2;
     border-radius: 6px;
-    color: #fff;
+    color: rgb(14, 241, 203);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
   }
 
@@ -143,5 +145,6 @@ header{
 
 
 footer{
-    margin: 20%;
+   color: aqua;
+   margin-top: 20%;
   }

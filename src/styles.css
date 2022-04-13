@@ -10,4 +10,6 @@
 body{
   background-color: rgb(207, 169, 232);
   background-image: url(./assets/rose-petals.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

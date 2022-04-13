@@ -5,7 +5,7 @@
 		</header>
 		<main>
 			<section>
-			<div class="about" *ngIf="masterMealList.length===0">
+			
 				<p>My <span>Meal</span>  Tracker <span>App</span> </p>
 				
 					<p>Bon Appetite Meal Tracker<span id="spin"></span>!</p>
@@ -18,14 +18,14 @@
 					  </div>
 					 <br/>
 				
-				
-			</div>	
-		
-				<!-- <new-meal (sendNewMeal)="addMeal($event)"></new-meal> -->
-			<!--Display the list of meals entered by the user, connect it to the list in appcomponent --> 
-				<!-- <meal-list [childMealList]="masterMealList"></meal-list> -->
 			</section>
 		</main>
+	
+			
+		<app-addmeal></app-addmeal>
+	
+			
+		
 		<footer>
 			<p> &copy; 2022 Bon Appettite </p>
 		</footer>
